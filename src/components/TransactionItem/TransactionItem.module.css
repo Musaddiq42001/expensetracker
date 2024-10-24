@@ -1,0 +1,68 @@
+.outer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.itemIcon {
+  font-size: 1.5rem;
+  background-color: var(--color-black4);
+  padding: 0.6rem;
+  border-radius: 2rem;
+}
+
+.left {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.name {
+  font-size: 1rem;
+}
+
+.date {
+  font-size: 1rem;
+  color: var(--color-black3);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.amount {
+  color: var(--color-orange1);
+}
+
+.cancekIcon {
+  color: var(--color-white);
+  background-color: var(--color-red2);
+  font-size: 1.5rem;
+  padding: 0.6rem;
+  border-radius: 2rem;
+}
+.editIcon {
+  color: var(--color-white);
+  font-size: 1.5rem;
+  background-color: var(--color-orange1);
+  padding: 0.6rem;
+  border-radius: 2rem;
+}
+
+.cancekIcon:hover {
+  cursor: pointer;
+}
+
+.editIcon:hover {
+  cursor: pointer;
+}

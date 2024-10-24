@@ -1,0 +1,77 @@
+:root {
+  /* Global variables to be defined here */
+  --color-white: #ffffff;
+  --color-white1: #efefef;
+  --color-white2: #f1f1f1;
+  --color-black: #000000;
+  --color-black1: #3b3b3b;
+  --color-black2: #626262;
+  --color-black3: #9b9b9b;
+  --color-black4: #d9d9d9;
+  --color-red1: #ff3838;
+  --color-red2: #ff4747;
+  --color-red3: #ff9595;
+  --color-green1: #89e148;
+  --color-green2: #b5dc52;
+  --color-green3: #43967b;
+  --color-orange1: #ff9304;
+  --color-orange2: #f4bb4a;
+  --color-purple1: #a000ff;
+  --color-purple2: #8784d2;
+  --color-yellow1: #fde006;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  background-color: var(--color-black1);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+@media screen and (min-width: 786px) {
+  .summary {
+    display: grid;
+  }
+}

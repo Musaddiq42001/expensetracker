@@ -1,0 +1,20 @@
+.heading {
+  font-size: 1.5rem;
+  margin: 0.5rem 1rem;
+  text-align: left;
+  font-style: italic;
+}
+
+.outer {
+  height: 21rem;
+  color: var(--color-black1);
+  background-color: var(--color-white);
+  margin: 1rem 1rem;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.summaryItem2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}

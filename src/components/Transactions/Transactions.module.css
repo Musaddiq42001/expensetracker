@@ -1,0 +1,23 @@
+.heading {
+  font-size: 1.5rem;
+  margin: 0.5rem 1rem;
+  text-align: left;
+  font-style: italic;
+}
+
+.outer {
+  height: 21rem;
+  color: var(--color-black1);
+  background-color: var(--color-white);
+  margin: 1rem 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.summaryItem1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

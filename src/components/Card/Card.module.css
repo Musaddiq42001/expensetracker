@@ -1,0 +1,51 @@
+.outer {
+  background-color: var(--color-black3);
+  padding: 2rem 1rem;
+  border-radius: 0.5rem;
+  min-width: 20rem;
+}
+
+.text {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.balAmount {
+  font-weight: 600;
+  color: var(--color-green1);
+}
+
+.expAmount {
+  font-weight: 600;
+  color: var(--color-orange1);
+}
+
+.greenBtn {
+  border: none;
+  color: var(--color-white);
+  padding: 0.2rem 2rem;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  background: linear-gradient(
+    90deg,
+    var(--color-green2) 0%,
+    var(--color-green1) 100%
+  );
+}
+
+.redBtn {
+  border: none;
+  color: var(--color-white);
+  padding: 0.2rem 2rem;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  background: linear-gradient(
+    90deg,
+    var(--color-red3) 0%,
+    var(--color-red2) 80%,
+    var(--color-red1) 100%
+  );
+}
+button:hover {
+  cursor: pointer;
+}

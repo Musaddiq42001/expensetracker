@@ -1,0 +1,16 @@
+.details {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.box {
+  width: 2rem;
+  height: 0.7rem;
+}

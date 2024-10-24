@@ -1,0 +1,26 @@
+.outer {
+  background-color: var(--color-black2);
+  margin: 1rem;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  margin: 1rem;
+  text-align: left;
+}
+
+/* @media screen and (min-width: 486px) {
+  .outer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+} */

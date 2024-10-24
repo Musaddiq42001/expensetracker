@@ -1,0 +1,40 @@
+.outer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.arrowBtn {
+  border: none;
+  border-radius: 1rem;
+  height: 2rem;
+  width: 2rem;
+  background: var(--color-white2);
+  box-shadow: 0.1em 0.2em 1em rgba(110, 105, 105, 0.6);
+}
+
+.countBtnActive {
+  border: none;
+  border-radius: 0.5rem;
+  height: 2rem;
+  width: 2rem;
+  color: var(--color-white);
+  background: var(--color-green3);
+  box-shadow: 0.1em 0.2em 1em rgba(110, 105, 105, 0.6);
+}
+
+.countBtn {
+  border: none;
+  border-radius: 0.5rem;
+  height: 2rem;
+  width: 2rem;
+  color: var(--color-black);
+  background: var(--color-white2);
+  box-shadow: 0.1em 0.2em 1em rgba(110, 105, 105, 0.6);
+}
+
+.arrowBtn:disabled {
+  cursor: default;
+}
